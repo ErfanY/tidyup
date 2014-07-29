@@ -1,6 +1,6 @@
 # TidyUp
-Tired of your desktop with 100 different files in it?
 ![TU](http://i.imgur.com/IDbTdzl.png "TidyUp")
+Tired of your desktop with 100 different files in it?
 
 ## Description
 TidyUp is a file sorter script which sorts files based on the extension.
