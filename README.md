@@ -1,5 +1,5 @@
 # TidyUp
-[TU](http://cloyne.ie/wp-content/uploads/2011/03/Cleanup.png)
+![TU](http://cloyne.ie/wp-content/uploads/2011/03/Cleanup.png "TidyUp")
 Tired of your desktop with 100 different files in it?
 
 ## Description
