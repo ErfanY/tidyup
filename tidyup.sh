@@ -94,7 +94,7 @@ for i in *; do
 		  handle_archives "$1" "$i";;
 		*.*)
 		  # Just in case of anything else BUT WITH extension	
-		  handle_files "$1" "$i";;								#send it to the handle_files to do normal proceedure
+		  handle_files "$1" "$i";;
 		*)
 		  # In case of files without extensions, move them to temp
 		  tmp=$(TMPDIR=. mktemp -d)
