@@ -1,5 +1,4 @@
-# TidyUp
-![TU](http://i.imgur.com/IDbTdzl.png "TidyUp")
+# TidyUp ![](img/tidy.png?raw=true)
 Tired of your desktop with 100 different files in it?
 
 ## Description
