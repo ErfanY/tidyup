@@ -77,7 +77,13 @@ wrapup() {
  echo "Start time: $START" >> $log
  echo "End time: $END" >> $log
  #open the log file
- xdg-open $log
+ if which xdg-open &> /dev/null; then
+     # Linux environment
+     xdg-open $log
+ else
+     # OS X environment
+     open $log
+ fi
 }
 
 # In case of sigint(signal 2 aka ctrl+c) call abort function
