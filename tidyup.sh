@@ -9,7 +9,13 @@ START=$(date +"%T")
 abort() {
  echo "The process aborted by sending halt signal." >> $log
  #open the log file
- xdg-open $log
+ if which xdg-open &> /dev/null; then
+     # Linux environment
+     xdg-open $log
+ else
+     # OS X environment
+     open $log
+ fi
  exit 0
 }
 
